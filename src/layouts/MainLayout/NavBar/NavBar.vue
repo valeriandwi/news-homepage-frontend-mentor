@@ -1,8 +1,5 @@
 <template>
-  <header
-    class="w-full bg-white h-12 flex justify-between items-center"
-    role="banner"
-  >
+  <header class="w-full bg-white h-12 flex justify-between items-center">
     <img src="@/assets/logo.svg" alt="logo" />
     <nav role="navigation">
       <div class="flex justify-end text-lg items-center">

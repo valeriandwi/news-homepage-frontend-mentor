@@ -1,5 +1,5 @@
 <template>
-  <div role="dialog" aria-modal="true">
+  <div role="dialog">
     <!-- Backdrop with fade-in animation -->
     <div
       v-if="isDrawerOpen"
