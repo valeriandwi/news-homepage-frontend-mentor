@@ -17,7 +17,7 @@
       }"
       tabindex="-1"
     >
-      <div class="fixed top-4 right-4 justify-end">
+      <div class="fixed top-8 right-8 justify-end">
         <img
           src="@/assets/icons/icon-menu-close.svg"
           alt="icon-menu"

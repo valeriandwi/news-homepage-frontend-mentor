@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-3 gap-8 mt-12 max-md:flex max-md:flex-col max-md:gap-6"
+    class="grid grid-cols-3 gap-8 mt-12 max-lg:flex max-lg:flex-col max-lg:gap-6"
   >
     <div
       class="flex flex-row space-x-4"
@@ -14,7 +14,9 @@
         width="102px"
       />
       <div class="flex flex-col space-y-2">
-        <p class="text-4xl font-bold text-primary-color">{{ index + 1 }}</p>
+        <p class="text-4xl font-bold text-primary-color">
+          {{ "0" + (index + 1) }}
+        </p>
         <p
           class="text-lg font-bold hover:text-primary-color hover:cursor-pointer"
         >

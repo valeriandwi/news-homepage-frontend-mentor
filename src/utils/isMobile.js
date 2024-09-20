@@ -1,3 +1,3 @@
 export const isMobile = () => {
-  return window.innerWidth < 500;
+  return window.innerWidth > 320 && window.innerWidth < 767;
 };

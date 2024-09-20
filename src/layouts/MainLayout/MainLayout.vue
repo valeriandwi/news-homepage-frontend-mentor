@@ -1,14 +1,15 @@
 <template>
   <MobileMenu :isDrawerOpen="isDrawerOpen" :closeDrawer="closeDrawer" />
   <div
-    class="py-16 max-md:pt-4 max-md:pb-16 px-24 max-md:px-6 bg-off-white-color"
+    class="py-16 max-md:pt-4 max-md:pb-16 px-24 max-md:px-6 bg-off-white-color flex flex-col items-center"
   >
     <NavBar v-if="!isMobile()" />
     <MobileNavBar v-if="isMobile()" :onDrawerOpen="openDrawer" />
-
-    <slot>
-      <main>Children Component</main>
-    </slot>
+    <div class="max-w-[1440px]">
+      <slot>
+        <main>Children Component</main>
+      </slot>
+    </div>
   </div>
 </template>
 
