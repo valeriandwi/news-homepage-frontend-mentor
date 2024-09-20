@@ -1,7 +1,7 @@
 <template>
   <header
     class="w-full bg-white h-12 mb-6 flex justify-between items-center"
-    role="navigation"
+    role="banner"
   >
     <img src="@/assets/logo.svg" alt="logo" role="img" />
     <div class="cursor-pointer" @click="onDrawerOpen" role="button">
