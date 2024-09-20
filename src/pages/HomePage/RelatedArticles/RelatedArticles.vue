@@ -10,8 +10,8 @@
       <img
         :src="require(`@/assets/images/${article.image}`)"
         :alt="article.title"
-        height="129px"
-        width="102px"
+        height="129"
+        width="102"
       />
       <div class="flex flex-col space-y-2">
         <p class="text-4xl font-bold text-primary-color">

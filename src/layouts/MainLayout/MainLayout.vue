@@ -5,7 +5,7 @@
   >
     <NavBar v-if="!isMobile()" />
     <MobileNavBar v-if="isMobile()" :onDrawerOpen="openDrawer" />
-    <div class="max-w-[1440px]">
+    <div class="max-w-[1440px]" role="main">
       <slot>
         <main>Children Component</main>
       </slot>

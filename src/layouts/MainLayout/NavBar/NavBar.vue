@@ -4,7 +4,7 @@
       <img src="@/assets/logo.svg" alt="logo" />
     </div>
     <nav>
-      <ul class="flex justify-end text-lg items-center">
+      <div class="flex justify-end text-lg items-center">
         <RouterLink
           v-for="route in routes"
           class="hover:text-primary-color text-secondary-color text-lg cursor-pointer px-6"
@@ -14,7 +14,7 @@
         >
           {{ route.linkName }}
         </RouterLink>
-      </ul>
+      </div>
     </nav>
   </header>
 </template>
