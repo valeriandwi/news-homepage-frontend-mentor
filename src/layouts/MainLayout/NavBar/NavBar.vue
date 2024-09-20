@@ -1,7 +1,7 @@
 <template>
   <header class="w-full bg-white h-12 flex justify-between items-center">
     <img src="@/assets/logo.svg" alt="logo" />
-    <nav role="navigation">
+    <nav>
       <div class="flex justify-end text-lg items-center">
         <RouterLink
           v-for="route in routes"
