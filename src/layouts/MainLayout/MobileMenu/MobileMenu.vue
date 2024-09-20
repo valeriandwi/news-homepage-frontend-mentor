@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div role="menu">
     <!-- Backdrop with fade-in animation -->
     <div
       v-if="isDrawerOpen"

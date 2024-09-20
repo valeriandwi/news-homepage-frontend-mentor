@@ -1,17 +1,19 @@
 <template>
-  <img class="w-full" :src="require(`@/${getOptimizedImage()}`)" alt="banner" />
+  <img
+    class="w-full"
+    :src="require(`@/${getOptimizedImage()}`)"
+    alt="banner"
+    role="img"
+  />
   <div
     class="grid grid-cols-2 gap-8 mt-8 max-md:flex max-md:flex-col max-md:gap-4 max-md:mt-4"
-    role="banner"
+    role="article"
   >
-    <h2 class="font-bold text-5xl text-secondary-color">
+    <h1 class="font-bold text-5xl text-secondary-color">
       The Bright Future of Web 3.0
-    </h2>
-    <div>
-      <p
-        class="text-dark-grayish-color text-paragraph text-justify"
-        role="text"
-      >
+    </h1>
+    <div role="definition">
+      <p class="text-dark-grayish-color text-paragraph text-justify">
         We dive into the next evolution of the web that claims to put the power
         of the platforms back into the hands of the people. But is it really
         fulfilling its promise?

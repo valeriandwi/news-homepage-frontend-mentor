@@ -1,8 +1,9 @@
 <template>
-  <header class="w-full bg-white h-12 flex justify-between items-center">
-    <div>
-      <img src="@/assets/logo.svg" alt="logo" />
-    </div>
+  <header
+    class="w-full bg-white h-12 flex justify-between items-center"
+    role="navigation"
+  >
+    <img src="@/assets/logo.svg" alt="logo" />
     <nav>
       <div class="flex justify-end text-lg items-center">
         <RouterLink
