@@ -4,7 +4,9 @@
     src="@/assets/images/image-web-3-desktop.jpg"
     alt="banner"
   />
-  <div class="grid grid-cols-2 gap-8 mt-8">
+  <div
+    class="grid grid-cols-2 gap-8 mt-8 max-md:flex max-md:flex-col max-md:gap-4 max-md:mt-4"
+  >
     <h2 class="font-bold text-5xl w-full text-secondary-color">
       The Bright Future of Web 3.0
     </h2>

@@ -1,7 +1,9 @@
 <template>
   <MainLayout>
-    <div class="py-12">
-      <div class="grid grid-cols-3 gap-6">
+    <div class="py-12 max-md:py-0">
+      <div
+        class="grid grid-cols-3 gap-6 max-md:flex max-md:flex-col max-md:space-y-6"
+      >
         <div class="col-span-2">
           <HeroSection />
         </div>

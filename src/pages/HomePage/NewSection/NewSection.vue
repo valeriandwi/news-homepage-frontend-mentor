@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <div class="h-full w-full bg-secondary-color py-8 px-6">
     <h2 class="text-4xl font-bold text-gold-color">New</h2>
     <div class="my-8" v-for="(data, index) in newData" :key="index">

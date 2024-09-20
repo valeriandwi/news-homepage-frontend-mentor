@@ -1,5 +1,7 @@
 <template>
-  <div class="grid grid-cols-3 gap-8 mt-12">
+  <div
+    class="grid grid-cols-3 gap-8 mt-12 max-md:flex max-md:flex-col max-md:gap-6"
+  >
     <div
       class="flex flex-row space-x-4"
       v-for="(article, index) in relatedArticles"
