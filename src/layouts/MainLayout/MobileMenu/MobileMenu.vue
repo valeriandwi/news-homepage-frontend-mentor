@@ -35,7 +35,6 @@
           :to="route.path"
           activeClass="!text-primary-color"
           @click="closeDrawer()"
-          role="menuitem"
         >
           {{ route.linkName }}
         </RouterLink>

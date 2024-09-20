@@ -1,10 +1,5 @@
 <template>
-  <img
-    class="w-full"
-    :src="require(`@/${getOptimizedImage()}`)"
-    alt="banner"
-    role="img"
-  />
+  <img class="w-full" :src="require(`@/${getOptimizedImage()}`)" alt="banner" />
   <div
     class="grid grid-cols-2 gap-8 mt-8 max-md:flex max-md:flex-col max-md:gap-4 max-md:mt-4"
     role="article"
@@ -20,7 +15,6 @@
       </p>
       <button
         class="hover:bg-secondary-color hover:text-white bg-primary-color font-bold text-secondary-color w-[185px] h-12 mt-8"
-        role="button"
       >
         READ MORE
       </button>

@@ -3,7 +3,7 @@
     class="w-full bg-white h-12 flex justify-between items-center"
     role="banner"
   >
-    <img src="@/assets/logo.svg" alt="logo" role="img" />
+    <img src="@/assets/logo.svg" alt="logo" />
     <nav role="navigation">
       <div class="flex justify-end text-lg items-center">
         <RouterLink
@@ -12,7 +12,6 @@
           :key="route.path"
           :to="route.path"
           activeClass="!text-primary-color"
-          role="menuitem"
         >
           {{ route.linkName }}
         </RouterLink>
